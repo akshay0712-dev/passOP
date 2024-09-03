@@ -166,6 +166,7 @@ const Manager = () => {
                   <div className="max-h-[40px] w-full truncate border-[0.5px] px-3 py-2 text-center flex flex-row justify-between">
                     <span className="truncate px-2" title={item.password}>{item.password}</span>
                     <span className="material-symbols-outlined font-bold text-base flex items-center cursor-pointer" title={item.password}>
+                    content_copy
                     </span>
                   </div>
                   <div className="max-h-[40px] w-full truncate border-[0.5px] px-1 md:px-3 py-2 text-center flex flex-row justify-evenly">
