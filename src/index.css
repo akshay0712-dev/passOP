@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .mycontainer {
+    @apply container px-4 md:px-40 py-2 md:py-6 mx-auto;
+  }
+}
+
+.btn, .circle, .github-path {
+  transition: 0.25s ease-in-out;
+  font-family: cursive ,Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn:hover .github-path {
+  fill: #1E293B
+}
+
+.btn:hover .circle {
+  fill: white;
+}
